@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/main.css';
 import Main from './Components/Main';
 import ArticleCard from './Components/ArticleCard';
 import H1 from './Components/H1';
