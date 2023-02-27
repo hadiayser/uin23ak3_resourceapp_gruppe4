@@ -1,3 +1,98 @@
 body{
     background-color: green;
 }
+
+$color_1: grey;
+$color_2: turquoise;
+$color_3: white;
+
+$font-family_1: sans-serif;
+$font-family_2: 'Rubik' , sans-serif;
+
+$background-color_1: whitesmoke;
+$background-color_2: turquoise;
+
+$border-color_1: grey;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+:root {
+    --maxwidth: 1200px;
+    --rootsize: 20px;
+}
+h1 {
+    width: 100%;
+    width: 801px;
+    height: 300px;
+    padding: 3rem 0.5rem;
+    height: auto;
+    border-color: $border-color_1;
+    border-width: 1px;
+    border-style: solid;
+    color: $color_1;
+    font-family: $font-family_1;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+a {
+    color: $color_2;
+}
+
+main {
+    article {
+        width: 100%;
+        width: 800px;
+        height: auto;
+        padding-bottom: 15rem;
+        padding-left: 1rem;
+        height: auto;
+        border-color: $border-color_1;
+        border-width: 1px;
+        border-style: solid;
+        color: $color_1;
+        font-family: $font-family_1;
+        border-top: .4rem solid turquoise;
+    }
+}
+nav {
+    button {
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin-right: 10px;
+        background-color: $background-color_1;
+        border: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-bottom: none;
+        text-decoration: none;
+        font-size: 1.3rem;
+        padding: .5rem 1.195rem;
+        padding-bottom: 1.6rem;
+        padding-top: 1rem;
+        color: $color_1;
+        font-family: $font-family_2;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .onSite {
+        background-color: $background-color_2;
+        color: $color_3;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 300px) {
+nav {
+        .button {
+            width: fit-content;
+            height: auto;
+            padding-right: 4rem;
+        }
+    }
+main {
+    article {
+            width: fit-content;
+    }
+}
+h1 {
+        width: auto;
+    }
+}
