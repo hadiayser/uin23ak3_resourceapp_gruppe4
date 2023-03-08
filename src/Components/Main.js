@@ -15,7 +15,7 @@ export default function Main({category}){
         {enCategory.map(category =>(
             <div key={category}>
         <article>
-            <h2>{category}</h2>
+            <h2 id="h2Storrelse">{category}</h2>
             {ressurserFiltrert.map(res => (
                 <ul key={res.url}>
                     <li>
