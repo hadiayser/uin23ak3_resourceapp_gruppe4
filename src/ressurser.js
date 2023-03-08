@@ -1,4 +1,3 @@
-export default resources
 const resources = [
     {
         title: "W3Schools",
