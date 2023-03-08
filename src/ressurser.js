@@ -1,4 +1,3 @@
-export default resources
 const resources = [
     {
         title: "W3Schools",
@@ -75,4 +74,5 @@ const resources = [
         url: "https://www.section.io/engineering-education/getting-started-with-sanity-cms/",
         category: "headless-cms"
     }
-]
+    ]
+    export default resources
