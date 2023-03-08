@@ -1,29 +1,6 @@
-$background-color_1: whitesmoke;
-$background-color_2: turquoise;
+$WhiteSmoke: whitesmoke;
+$Turqouise: turquoise;
+$Grey: grey;
 
-$border-color_1: grey;
 
-h1  {
-    border-color: $border-color_1;
-}
-
-main {
-    article {
-        border-color: $border-color_1;
-        border-top: .4rem solid turquoise;
-    }
-}
-
-nav {
-    button {
-        background-color: $background-color_1;
-        border: grey;
-        color: $color_1;
-    }
-
-    .onSite {
-        background-color: $background-color_2;
-        color: $color_3;
-    }
-}
 

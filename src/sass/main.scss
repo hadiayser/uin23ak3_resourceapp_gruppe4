@@ -1,3 +1,4 @@
+@import "Colors";
 
 $font_1: sans-serif;
 $font_2: 'Rubik' , sans-serif;
@@ -16,13 +17,13 @@ h1 {
     height: auto;
     border-width: 1px;
     border-style: solid;
-    color: $color_1;
+    color: $WhiteSmoke;
     font-family: $font_1;
     text-transform: uppercase;
     font-size: 1.5rem;
 }
 a {
-    color: $color_2;
+    color: $Turqouise;
 }
 
 main {
@@ -35,7 +36,7 @@ main {
         height: auto;
         border-width: 1px;
         border-style: solid;
-        color: $color_1;
+        color: $WhiteSmoke;
         font-family: $font_1;
     }
 }
@@ -45,7 +46,7 @@ nav {
         height: auto;
         text-align: center;
         margin-right: 10px;
-        background-color: $background-color_1;
+        background-color: $WhiteSmoke;
         border: grey;
         border-width: 1px;
         border-style: solid;
@@ -55,13 +56,22 @@ nav {
         padding: .5rem 1.195rem;
         padding-bottom: 1.6rem;
         padding-top: 1rem;
-        color: $color_1;
+        color: $WhiteSmoke;
         font-family: $font_2;
         display: inline-block;
         text-transform: uppercase;
     }
     
 }
+
+#h2Storrelse{
+    text-transform: uppercase;
+}
+.active button{
+        background-color: $Turqouise;
+        color: white;
+}
+
 @media screen and (max-width: 800px) and (min-width: 300px) {
 nav {
         .button {
